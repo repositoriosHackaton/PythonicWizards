@@ -1,12 +1,14 @@
 # PythonicWizards
-En este espacio se sube el código creado para el grupo de Pythonic Wizards de República Dominicana
 
-Se debe agregar toda la documentación que ustedes consideren pertinente para la compresión de los modelos usados, la ejecución del código y los resultados obtenidos. 
-Puden, si desean, agregar imágenes o resultados obtenidos. 
+En este espacio se sube el código creado para el grupo de Pythonic Wizards de República Dominicana hola
 
-Recuerden que este readme es su puerta de entrada para su proyecto. 
+Se debe agregar toda la documentación que ustedes consideren pertinente para la compresión de los modelos usados, la ejecución del código y los resultados obtenidos.
+Puden, si desean, agregar imágenes o resultados obtenidos.
 
-Un ejemplo puede ser: 
+Recuerden que este readme es su puerta de entrada para su proyecto.
+
+Un ejemplo puede ser:
+
 # Nombre del Proyecto
 
 Breve descripción del proyecto.
@@ -21,14 +23,13 @@ Breve descripción del proyecto.
 6. [Estado del proyecto](#EstadoDelProyecto)
 7. [Agradecimientos](#Agradecimientos)
 
+- Nombre del proyecto
 
-* Nombre del proyecto
+- Breve descripción del proyecto -> Alguna imagen o gif que muestre el proyecto
 
-* Breve descripción del proyecto -> Alguna imagen o gif que muestre el proyecto
+- Arquitectura del proyecto + imagen
 
-* Arquitectura del proyecto + imagen
-
-* Proceso de desarrollo:
+- Proceso de desarrollo:
 
 -Fuente del dataset
 -Limpieza de datos (img que lo valide)
@@ -37,9 +38,10 @@ Breve descripción del proyecto.
 -Estadísticos (Valores, gráficos, …)
 -Métrica(s) de evaluación del modelo
 
-* Funcionalidades extra:
+- Funcionalidades extra:
 
 Ejem 1: Implementación de chatbot
+
 - Tecnología/Herramientas usadas (Librería, Framework, …)
 - Arquitectura (img)
 - Indicar fuente del dataset
@@ -50,16 +52,20 @@ Ejem 1: Implementación de chatbot
 - Métrica(s) de evaluación del modelo
 
 Ejem 2: Integración del proyecto en una pág web
+
 - Tecnología/Herramientas usadas …
 - Arquitectura (img)
 
 Ejem 3: Integración del proyecto en un canal WhatsApp, Discord, Telegram, Correo, …
+
 - Tecnología/Herramientas usadas …
 - Arquitectura (img)
 
 Ejem 4: Desarrollo de interfaz gráfica de usuario
+
 - Tecnología/Herramientas usadas …
 - Arquitectura (img)
 
 Ejem …: …
+
 - Tecnología/Herramientas usadas …
