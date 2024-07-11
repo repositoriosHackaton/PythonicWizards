@@ -24,48 +24,36 @@ Breve descripción del proyecto.
 7. [Agradecimientos](#Agradecimientos)
 
 - Nombre del proyecto
+  VinPrix
 
 - Breve descripción del proyecto -> Alguna imagen o gif que muestre el proyecto
+  
+  aplicacion web para que un usuario pueda hacer predicciones mediante unos parametros que se le pidan
 
 - Arquitectura del proyecto + imagen
+combinación de pipeline de preprocesamiento y modelado utilizando el módulo Pipeline de scikit-learn
 
 - Proceso de desarrollo:
 
 -Fuente del dataset
+https://www.kaggle.com/datasets/nikitatkachenko/vivinoredwine?resource=download
+
 -Limpieza de datos (img que lo valide)
+
+![image](https://github.com/repositoriosHackaton/PythonicWizards/assets/127767257/2020c31f-42c1-41d1-b11e-a2c69f6b0378)
+
 -Manejo excepciones/control errores
+
 -¿Qué modelo de Machine Learning están usando?
+Aprendizaje supervisado
+
 -Estadísticos (Valores, gráficos, …)
+
 -Métrica(s) de evaluación del modelo
 
 - Funcionalidades extra:
-
-Ejem 1: Implementación de chatbot
-
-- Tecnología/Herramientas usadas (Librería, Framework, …)
-- Arquitectura (img)
-- Indicar fuente del dataset
-- Limpieza de datos (ejem: se usó PLN + img que lo validen)
-- Manejo excepciones/control errores
-- En caso de usar un modelo de ML indicar ¿Qué modelo de Machine Learning están usando?
-- Estadísticos (Valores, gráficos, …)
-- Métrica(s) de evaluación del modelo
 
 Ejem 2: Integración del proyecto en una pág web
 
 - Tecnología/Herramientas usadas …
 - Arquitectura (img)
-
-Ejem 3: Integración del proyecto en un canal WhatsApp, Discord, Telegram, Correo, …
-
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
-
-Ejem 4: Desarrollo de interfaz gráfica de usuario
-
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
-
-Ejem …: …
-
-- Tecnología/Herramientas usadas …
