@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VinPrix - Predicción de Precios de Vinos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container">
+          <div class="top-bar-content">
+            <span class="bar-text"><i class="fa fa-phone"></i>123 456 7891</span>
+            <ul class="social-media">
+              <li><a href="#" target="_blank"><i class="fa fa-facebook" style="color:#6b3232;"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-twitter" style="color:#6b3232;"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-instagram" style="color:#6b3232;"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <header>
+        <nav class="navbar">
+          <div class="container">
+            <div class="logo-menu-container">  <img src="/static/images/logo.png" alt="VinPrix Logo" class="logo">
+              <ul class="nav-menu">
+                <li><a href="/index">Inicio</a></li>
+                <li><a href="/calculate">Calcular</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <div class="footer-container">
+          <div class="footer-logo">
+            <img src="/static/images/logo.png" alt="VinPrixLogo">
+          </div>
+    
+          <div class="footer-menu-contact">
+            <ul class="footer-menu">
+                <h4>Explora</h4>
+              <li><a href="/index">Inicio</a></li>
+              <p></p>
+              <li><a href="/calculate">Calcular Precio</a></li>
+            </ul>
+    
+            <div class="footer-contact">
+              <h4>Contáctanos</h4>
+              <p><i class="fa fa-envelope"></i> info@vinprix.com</p>
+              <p><i class="fa fa-phone"></i> +1-234-567-8901</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="derechos">
+        <p>&copy; 2024 VinPrix - Predicción de Precios de Vinos</p>
+      </div>
+      <script src="script.js"></script>
+
+</body>
+</html>

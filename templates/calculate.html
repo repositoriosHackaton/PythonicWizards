@@ -1,0 +1,50 @@
+{% extends "/layouts/main.html" %}
+{% block content %}
+<section class="calculate">
+    <div class="container">
+        <h1>Calcula el Precio de tu Vino</h1>
+        <form action="/calculate_price" method="post">
+            <div class="form-group">
+                <label for="wine_name">Nombre del Vino</label>
+                <input type="text" id="wine_name" name="wine_name" value="{{ wine_name }}" required>
+            </div>
+            <div class="form-group">
+                <label for="wine_year">Año del Vino</label>
+                <input type="number" id="wine_year" name="wine_year" value="{{ wine_year }}" required>
+            </div>
+            <div class="form-group">
+                <label for="wine_country">País de Origen</label>
+                <input type="text" id="wine_country" name="wine_country" value="{{ wine_country }}" required>
+            </div>
+            <div class="form-group">
+                <label for="wine_region">Región</label>
+                <input type="text" id="wine_region" name="wine_region" value="{{ wine_region }}" required>
+            </div>
+            <div class="form-group">
+                <label for="winery">Bodega</label>
+                <input type="text" id="winery" name="winery" value="{{ winery }}" required>
+            </div>
+            <div class="form-group">
+                <label for="wine_rating">Puntuación</label>
+                <input type="number" step="0.1" id="wine_rating" name="wine_rating" value="{{ wine_rating }}" required>
+            </div>
+            <div class="form-group">
+                <label for="currency">Moneda</label>
+                <select id="currency" name="currency" required>
+                    <option value="usd" {% if currency == 'usd' %}selected{% endif %}>Dólares</option>
+                    <option value="eur" {% if currency == 'eur' %}selected{% endif %}>Euros</option>
+                    <option value="dop" {% if currency == 'dop' %}selected{% endif %}>Pesos Dominicanos</option>
+                    <option value="pab" {% if currency == 'pab' %}selected{% endif %}>Pesos Panameños</option>
+                    <option value="mxn" {% if currency == 'mxn' %}selected{% endif %}>Pesos Mexicanos</option>
+                </select>
+            </div>
+            <button type="submit">Calcular Precio</button>
+            <div id="result-container">
+                {% if message %}
+                    <p>{{ message }}</p>
+                {% endif %}
+            </div>
+        </form>
+    </div>
+</section>
+{% endblock %}

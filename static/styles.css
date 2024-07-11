@@ -1,0 +1,296 @@
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+.social-media{
+    justify-content: flex-end;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Top bar */
+.top-bar {
+    background-color: #f0f0f0; 
+    padding: 10px 0;
+    color:#6b3232;
+
+  }
+  
+  .top-bar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flow-number {
+    font-weight: bold;
+  }
+  
+  .social-media {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  
+.navbar {
+    background-color: #60090D;
+    padding: 0 0;
+
+}
+
+.logo {
+    height: 160px; 
+    margin-right:auto; 
+}
+
+.logo-menu-container {
+    display: flex;  
+    align-items: center; 
+    justify-content: space-between; 
+  }
+  
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 3em;
+justify-content: flex-end;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; 
+}
+
+.nav-menu a:hover {
+    background-color: #F5F5F5;
+    border-radius: 5%;
+    padding: 5px;
+    color: #460505; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .footer-logo {
+    text-align: center;
+  }
+  
+  .footer-logo img {
+    width: 30vh;
+    height: auto;
+  }
+  
+    .footer-menu-contact {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-menu {
+    list-style: none;
+    margin: 0;
+    padding: 155px;
+    padding-block: 5px;
+    padding-bottom: 20px;
+  }
+  
+  .footer-menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .derechos{
+    background-color: #F5F5F5;
+    color:#60090D;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: solid;
+  }
+
+/* index.hbs */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.hero-text {
+    flex: 1;
+    text-align: left; 
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    flex: 1;
+}
+
+ 
+  /* Hero section styles */
+  .hero {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .hero-text {
+    flex: 1;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .hero-image {
+    flex: 1;
+    background-image: url(/static/images/winehero.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .differences {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  .differences h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .differences-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .difference {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    width: calc(33% - 20px); 
+  }
+  
+  .difference h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .difference p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Calculate section styles */
+.calculate {
+    background-color: #f5f5f5; 
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    
+  }
+  
+  .calculate h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+  .calculate button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .calculate button:hover {
+    background-color: #222;
+  }
+  
+  #result-container {
+    margin-top: 15px;
+    width: 80%; 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    max-width: 500px;
+    text-align: center; 
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 24px; 
+    font-weight: bold;
+  }
+  
+  
