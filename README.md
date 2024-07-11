@@ -24,18 +24,21 @@ Breve descripción del proyecto.
 7. [Agradecimientos](#Agradecimientos)
 
 - Nombre del proyecto
+
   VinPrix
 
 - Breve descripción del proyecto -> Alguna imagen o gif que muestre el proyecto
-  
+
   aplicacion web para que un usuario pueda hacer predicciones mediante unos parametros que se le pidan
 
 - Arquitectura del proyecto + imagen
+
 combinación de pipeline de preprocesamiento y modelado utilizando el módulo Pipeline de scikit-learn
 
 - Proceso de desarrollo:
 
 -Fuente del dataset
+
 https://www.kaggle.com/datasets/nikitatkachenko/vivinoredwine?resource=download
 
 -Limpieza de datos (img que lo valide)
@@ -45,6 +48,7 @@ https://www.kaggle.com/datasets/nikitatkachenko/vivinoredwine?resource=download
 -Manejo excepciones/control errores
 
 -¿Qué modelo de Machine Learning están usando?
+
 Aprendizaje supervisado
 
 -Estadísticos (Valores, gráficos, …)
